@@ -1,0 +1,101 @@
+{
+  "SoundCloudVerificationMessage": {
+    "@id": "https://w3id.org/rebase#SoundCloudVerificationMessage",
+    "@context": {
+      "timestamp": "https://schema.org/temporal",
+      "permalink": "https://w3id.org/rebase/permalink"
+    }
+  },
+  "RedditVerificationMessage": {
+    "@id": "https://w3id.org/rebase#RedditVerificationMessage",
+    "@context": {
+      "handle": "https://schema.org/name",
+      "timestamp": "https://schema.org/temporal"
+    }
+  },
+  "TwitterVerificationPublicTweet": {
+    "@id": "https://w3id.org/rebase#TwitterVerificationPublicTweet",
+    "@context": {
+      "tweetId": "https://schema.org/identifier",
+      "timestamp": "https://schema.org/temporal",
+      "handle": "https://schema.org/name"
+    }
+  },
+  "GitHubVerification": {
+    "@id": "https://w3id.org/rebase#GitHubVerification",
+    "@context": {
+      "sameAs": {
+        "@id": "https://schema.org/sameAs",
+        "@type": "@id"
+      }
+    }
+  },
+  "TwitterVerification": {
+    "@id": "https://w3id.org/rebase#TwitterVerification",
+    "@context": {
+      "sameAs": {
+        "@id": "https://schema.org/sameAs",
+        "@type": "@id"
+      }
+    }
+  },
+  "EmailVerificationMessage": {
+    "@id": "https://w3id.org/rebase#EmailVerificationMessage",
+    "@context": {
+      "timestamp": "https://schema.org/temporal",
+      "email": "https://schema.org/email"
+    }
+  },
+  "SoundCloudVerification": {
+    "@id": "https://w3id.org/rebase#SoundCloudVerification",
+    "@context": {
+      "sameAs": {
+        "@id": "https://schema.org/sameAs",
+        "@type": "@id"
+      }
+    }
+  },
+  "EmailVerification": {
+    "@id": "https://w3id.org/rebase#EmailVerification",
+    "@context": {
+      "sameAs": {
+        "@id": "https://schema.org/sameAs",
+        "@type": "@id"
+      }
+    }
+  },
+  "DnsVerification": {
+    "@id": "https://w3id.org/rebase#DnsVerification",
+    "@context": {
+      "sameAs": {
+        "@id": "https://schema.org/sameAs",
+        "@type": "@id"
+      }
+    }
+  },
+  "GitHubVerificationMessage": {
+    "@id": "https://w3id.org/rebase#GitHubVerificationMessage",
+    "@context": {
+      "timestamp": "https://schema.org/temporal",
+      "handle": "https://schema.org/name",
+      "gistVersion": "https://schema.org/version",
+      "gistId": "https://schema.org/url"
+    }
+  },
+  "DnsVerificationMessage": {
+    "@id": "https://w3id.org/rebase#DnsVerificationMessage",
+    "@context": {
+      "dnsServer": "https://schema.org/url",
+      "timestamp": "https://schema.org/temporal"
+    }
+  },
+  "RedditVerification": {
+    "@id": "https://w3id.org/rebase#RedditVerification",
+    "@context": {
+      "sameAs": {
+        "@id": "https://schema.org/sameAs",
+        "@type": "@id"
+      }
+    }
+  }
+}
