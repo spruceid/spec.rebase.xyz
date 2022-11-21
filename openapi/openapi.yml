@@ -102,6 +102,29 @@ paths:
               schema:
                 $ref: './schemas/common/RedditVerificationMessage.yml'
     
+  /schemas/common/SameControllerAssertion.yml:
+    get:
+      tags:
+      - Common
+      responses:
+        '200':
+          content:
+            application/yml:
+              schema:
+                $ref: './schemas/common/SameControllerAssertion.yml'
+    
+
+  /schemas/common/SameControllerEvidence.yml:
+    get:
+      tags:
+      - Common
+      responses:
+        '200':
+          content:
+            application/yml:
+              schema:
+                $ref: './schemas/common/SameControllerEvidence.yml'
+   
 
   /schemas/common/SoundCloudVerification.yml:
     get:
