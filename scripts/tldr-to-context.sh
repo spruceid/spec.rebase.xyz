@@ -20,7 +20,7 @@ tldrc \
 	-i spec/tldr/common/soundcloud.tldr \
 	-i spec/tldr/common/same_controller.tldr \
 	-i spec/tldr/common/twitter.tldr \
-	json-ld-context --rdf-type-to-layout-name \
+	json-ld-context --standalone --rdf-type-to-layout-name \
 	-m https://www.w3.org/=spec/extern/www.w3.org/ \
 	-c https://www.w3.org/2018/credentials/v1.jsonld \
 	https://w3id.org/rebase#DnsVerification \
